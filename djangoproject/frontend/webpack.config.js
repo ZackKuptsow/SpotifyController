@@ -32,5 +32,9 @@ module.exports = {
 	watchOptions: {
 		poll: true,
 		ignored: /node_modules/
+	},
+	devServer: {
+		inline: true,
+		port: 8000
 	}
 };
